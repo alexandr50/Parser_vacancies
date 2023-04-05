@@ -8,6 +8,7 @@ path = Path('file.json')
 class Vacancy:
     __slots__ = ('name', 'salary', 'description', 'company_name', 'url', 'experience')
 
+
     def __init__(self, name: str, salary: str, description: str, company_name: str, url: str, experience: str):
         self.name = name
         self.salary = salary
